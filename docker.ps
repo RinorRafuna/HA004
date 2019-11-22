@@ -1,0 +1,23 @@
+CONTAINER ID        IMAGE                  COMMAND                  CREATED             STATUS                         PORTS                     NAMES
+6a16d9f8b969        rinorrafuna/node_app   "docker-entrypoint.s…"   4 minutes ago       Up 4 minutes                   0.0.0.0:48080->8080/tcp   vibrant_goldstine
+d548a73dfc9a        hello-world            "/hello"                 About an hour ago   Exited (0) About an hour ago                             charming_almeida
+4b2de7dc8b20        bb16442bcd94           "kube-controller-man…"   6 days ago          Exited (255) 25 hours ago                                k8s_kube-controller-manager_kube-controller-manager-slave-node_kube-system_1af82942abbfd5103642bc0bd176d77d_1
+969fbd06125d        9b65a0f78b09           "/usr/local/bin/kube…"   6 days ago          Exited (255) 25 hours ago                                k8s_kube-proxy_kube-proxy-jwz9m_kube-system_60391733-55cb-4f5d-adb1-79926f4534c0_0
+fbceb45fd351        k8s.gcr.io/pause:3.1   "/pause"                 6 days ago          Exited (255) 25 hours ago                                k8s_POD_kube-proxy-jwz9m_kube-system_60391733-55cb-4f5d-adb1-79926f4534c0_0
+782accc34846        df60c7526a3d           "kube-apiserver --ad…"   6 days ago          Exited (255) 25 hours ago                                k8s_kube-apiserver_kube-apiserver-slave-node_kube-system_21c52cd53cc79dd47453cc98c28559d5_0
+fe659aa46d58        98fecf43a54f           "kube-scheduler --au…"   6 days ago          Exited (255) 25 hours ago                                k8s_kube-scheduler_kube-scheduler-slave-node_kube-system_4e1bd6e5b41d60d131353157588ab020_0
+83105908b810        b2756210eeab           "etcd --advertise-cl…"   6 days ago          Exited (255) 25 hours ago                                k8s_etcd_etcd-slave-node_kube-system_4933870bcf2628e81061b472536a5ec3_0
+91fc754a047e        bb16442bcd94           "kube-controller-man…"   6 days ago          Exited (255) 6 days ago                                  k8s_kube-controller-manager_kube-controller-manager-slave-node_kube-system_1af82942abbfd5103642bc0bd176d77d_0
+0f53037b5d60        k8s.gcr.io/pause:3.1   "/pause"                 6 days ago          Exited (255) 25 hours ago                                k8s_POD_kube-controller-manager-slave-node_kube-system_1af82942abbfd5103642bc0bd176d77d_0
+10d278d210d9        k8s.gcr.io/pause:3.1   "/pause"                 6 days ago          Exited (255) 25 hours ago                                k8s_POD_kube-apiserver-slave-node_kube-system_21c52cd53cc79dd47453cc98c28559d5_0
+7a852023dfa7        k8s.gcr.io/pause:3.1   "/pause"                 6 days ago          Exited (255) 25 hours ago                                k8s_POD_etcd-slave-node_kube-system_4933870bcf2628e81061b472536a5ec3_0
+f89f8021a317        k8s.gcr.io/pause:3.1   "/pause"                 6 days ago          Exited (255) 25 hours ago                                k8s_POD_kube-scheduler-slave-node_kube-system_4e1bd6e5b41d60d131353157588ab020_0
+6565584f21d6        busybox                "cat /etc/passwd"        13 days ago         Exited (0) 13 days ago                                   agitated_lichterman
+910e986fc180        busybox                "cat /etc/hostname"      13 days ago         Exited (0) 13 days ago                                   sad_lehmann
+03718a06c12f        nginx                  "nginx -g 'daemon of…"   13 days ago         Exited (255) 13 days ago       0.0.0.0:8081->80/tcp      websrv-mp
+f5c08e403d06        nginx                  "nginx -g 'daemon of…"   13 days ago         Exited (255) 13 days ago       0.0.0.0:32771->80/tcp     rinornginx
+88ad79df6506        nginx                  "nginx -g 'daemon of…"   13 days ago         Exited (255) 13 days ago       80/tcp                    quizzical_pare
+5d48d61648cd        busybox                "sh"                     13 days ago         Exited (0) 13 days ago                                   flamboyant_hermann
+eb98af9b0c11        hello-world            "/hello"                 13 days ago         Exited (0) 13 days ago                                   inspiring_matsumoto
+9b0b8efe28ed        hello-world            "/hello"                 13 days ago         Exited (0) 13 days ago                                   pensive_shaw
+9222cc2a94ad        hello-world            "/hello"                 13 days ago         Exited (0) 13 days ago                                   distracted_pike

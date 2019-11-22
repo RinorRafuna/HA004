@@ -1,0 +1,14 @@
+REPOSITORY                           TAG                 IMAGE ID            CREATED             SIZE
+rinorrafuna/node_app                 latest              5d782292824e        9 minutes ago       907MB
+labinoth/node_app                    latest              2ec0c85d7fbf        20 hours ago        907MB
+k8s.gcr.io/kube-proxy                v1.16.3             9b65a0f78b09        9 days ago          86.1MB
+k8s.gcr.io/kube-apiserver            v1.16.3             df60c7526a3d        9 days ago          217MB
+k8s.gcr.io/kube-controller-manager   v1.16.3             bb16442bcd94        9 days ago          163MB
+k8s.gcr.io/kube-scheduler            v1.16.3             98fecf43a54f        9 days ago          87.3MB
+busybox                              latest              020584afccce        3 weeks ago         1.22MB
+node                                 10                  e45bc9197ec9        4 weeks ago         903MB
+nginx                                latest              540a289bab6c        4 weeks ago         126MB
+k8s.gcr.io/etcd                      3.3.15-0            b2756210eeab        2 months ago        247MB
+k8s.gcr.io/coredns                   1.6.2               bf261d157914        3 months ago        44.1MB
+hello-world                          latest              fce289e99eb9        10 months ago       1.84kB
+k8s.gcr.io/pause                     3.1                 da86e6ba6ca1        23 months ago       742kB
